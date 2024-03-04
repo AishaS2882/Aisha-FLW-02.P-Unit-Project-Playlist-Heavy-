@@ -1,0 +1,150 @@
+html, body {
+  height: 100%;
+  width: 100%;
+text-shadow: 4px 5px 8px red;
+font-family: 'Lobster', cursive;
+font-style: oblique;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+.title {
+  text-shadow: 4px 5px 8px red;
+  font-family: 'Lobster', cursive;
+  font-style: oblique;
+  font-size: 50px;
+  color: hotpink;
+
+}
+
+.display {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 25px
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid black;
+  background-color: rgba(76, 175, 80, 0.3)
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.display-image img {
+  display: block;
+  height: 100px;
+  width: auto;
+  
+}
+
+.display-song p {
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  
+}
+
+.display-artist p {
+  font-size: 18px;
+  height: 100px;
+  
+}
+
+
+.display-link a {
+  display: block;
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  
+}
+
+.form {
+  width: 75%;
+  margin: 0 auto 20px auto;
+  font-size: 18px;
+}
+
+input {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: black;
+}
+
+button {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: black;
+}
+
+
+/* CSS */
+.add {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.dd:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+
+/* 
+
+https://png.pngtree.com/thumb_back/fh260/background/20230518/pngtree-in-the-style-of-darkly-romantic-image_2583071.jpg
+
+
+
+https://pm1.aminoapps.com/6621/317c77976accceb5e120cc6ca5535aef442126e9_hq.jpg
+
+*/
+
+body {
+  background: url(https://png.pngtree.com/thumb_back/fh260/background/20230518/pngtree-in-the-style-of-darkly-romantic-image_2583071.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+   color: hotpink;
+  font-size: 25px;
+}
+
+img {
+  border-radius: 50%;
+  border: 5px #3e6ee0 inset;
+}
